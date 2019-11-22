@@ -20,11 +20,13 @@ const config = {
     'img/*',
     'icons/*',
     'page-data/*',
+    'propuestas/*',
+    'hoja-de-vida/*',
     'images/*',
     'static/*',
     '404/'
   ],
-  deleteRemote: true,
+  deleteRemote: false,
   forcePasv: true
 }
 
