@@ -16,6 +16,7 @@ const config = {
     '*.json',
     'manifest.webmanifest',
     'admin/*',
+    'static/**/*',
     'galeria/*',
     'img/*',
     'icons/*',
@@ -26,7 +27,7 @@ const config = {
     'static/*',
     '404/'
   ],
-  deleteRemote: false,
+  deleteRemote: true,
   forcePasv: true
 }
 
