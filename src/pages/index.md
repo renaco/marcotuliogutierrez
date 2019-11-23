@@ -12,24 +12,32 @@ mainpitch:
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  La propuesta de la lista Nº7 es la DESCENTRALIZACIÓN DE LOS SERVICIOS y que el Colegio, desde hace algunos años silencioso frente a los problemas político-constitucionales y la formación de las leyes, recupere su condición de voz firme y serena como conciencia jurídica de sociedad.
+  Mis 50 años en el voluntariado, 40 en el municipalismo y la gestión pública, 22 como profesor universitario y 20 en la actividad gremial en nuestro Colegio, me han enseñado a escuchar a todos y aprender de todos, y a la vez ser firme en las decisiones que adopto y a cumplir lo que prometo.
+  Aspiro a ser el Decano de Descentralización y porque #TUMECONOCES, firmo este compromiso de cumplir con mi Plan de Gobierno 2020-2021.
 intro:
   blurbs:
     - image: /img/coffee.png
-      title: Lima Centro
       text: >
-        Ramírez Muñoz (Director de Dirección de Bienestar Social), Luis Tudela Varela (Director de la Dirección de Defensa Gremial) y José Luis García Villena (Vice decano) 
+        1. Centros de servicios integrales – SCI en Lima Norte, Sur, Este y centro
     - image: /img/coffee-gear.png
-      title: Lima Norte
       text: >
-        Milagros Gerarda García Mattos (Directora de la Dirección de Extensión Social y Participación) Shelley Jeraldí Urbina Flores (Directora de Dirección de Comunicaciones e Informática), José Luis Espichán Pérez (Secretario General) *Lima Sur: Alberto Luis Peralta Huatuco (Director de la  Dirección de Comisiones y Consultas), Liz Violeta Gonzáles Mendes (Directora de la Dirección de Biblioteca)  y Élida Adelina Huayta Torpoco (Directora de la Dirección Académica y Promoción Cultural) 
+        2. Mi bono académico
     - image: /img/tutorials.png
-      title: Lima Este
       text: >
-        Elmer Sandro Yupa Villalba (Director de Economía) , Irene Guillermina Chávez Gil (Directora de Ética)  Katherine Lisset Cuellar Bazán (Directora de la Dirección de Derechos Humanos)
+        3. App CAL
+    - image: /img/meeting-space.png
+      text: >
+        4. Conversión del policlínico en el centro de servicios especiales de imagenología
+    - image: /img/tutorials.png
+      text: >
+        5. Cuponera CAL
+    - image: /img/tutorials.png
+      text: >
+        6. Centro de asesoramiento Mario Alzamora Valdez
+    - image: /img/tutorials.png
+      text: >
+        7. Recuperación del rol del colegio como conciencia de la sociedad
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

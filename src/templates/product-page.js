@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import Testimonials from '../components/Testimonials'
+// import Pricing from '../components/Pricing'
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import ImageResponsive from './../img/640x360.png'
 
 export const ProductPageTemplate = ({
   image,
@@ -20,24 +21,27 @@ export const ProductPageTemplate = ({
 }) => (
   <div className="content">
     <div
-      className="full-width-image-container margin-top-0"
+      className="full-width-image-container margin-top-0 is-hidden-mobile"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
       }}
     >
-      <h2
+      {/* <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          // boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
           backgroundColor: '#2D3192',
           color: 'white',
           padding: '1rem',
         }}
       >
         {title}
-      </h2>
+      </h2> */}
+    </div>
+    <div className="is-hidden-desktop">
+      <img src={ImageResponsive} alt={title} />
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -45,7 +49,8 @@ export const ProductPageTemplate = ({
           <div className="columns">
             <div className="column is-7 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+              {/* <p>{description}</p> */}
+              <Features gridItems={intro.blurbs} />
             </div>
           </div>
           {/* <div className="columns">

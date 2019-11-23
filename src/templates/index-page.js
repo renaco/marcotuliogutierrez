@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+// import BlogRoll from '../components/BlogRoll'
+import ImageResponsive from './../img/640x360.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -17,7 +18,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image margin-top-0 is-hidden-mobile"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -65,6 +66,9 @@ export const IndexPageTemplate = ({
         </h3>
       </div> */}
     </div>
+    <div className="is-hidden-desktop">
+      <img src={ImageResponsive} alt={title} />
+    </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -86,17 +90,18 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
-                    {/* <p>{description}</p> */}
+                    <h4>MI COMPROMISO:</h4>
+                    <p>{description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/propuestas">
-                      Todas las propuestas
+                      Propuestas
                     </Link>
                   </div>
-                </div>
+                </div> */}
                 {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
