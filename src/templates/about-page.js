@@ -3,13 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import profile from '../../static/img/profile.png'
-import styled from 'styled-components'
+import profile from '../../static/img/profile.jpg'
 
-export const contentImage = styled.img`
-  display: block;
-  margin: auto;
-`
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
@@ -42,7 +37,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <img className="about-image" src={profile} alt=""/>
+      <img className="center-image" src={profile} alt=""/>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

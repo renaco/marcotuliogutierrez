@@ -9,9 +9,14 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$sky: #00C0F3
+$blue: #034EA2
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+// .content h3
+//   word-break: break-all
 
 .content .taglist
   list-style: none
@@ -27,6 +32,9 @@ $black: #2b2523
     padding: 0 2rem 1rem 0
     margin-bottom: 1.5rem
     margin-top: 0
+
+.text-center
+  text-align: center
 
 // Helper Classes
 .full-width-image-container
@@ -44,7 +52,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    // height: 400px
     background-size: cover
     background-position: bottom
     display: flex
@@ -81,7 +89,7 @@ $black: #2b2523
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 3rem 0rem
   background-color: transparent
 
 //Menu overrides
@@ -92,7 +100,6 @@ $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
-
 
 .menu-label
   font-size: 1em !important
@@ -125,6 +132,14 @@ $menu-label-color: $white-ter
 .is-hidden-desktop
   display: none;
 
+.team-members
+  img
+    border-radius: 50%
+    background: $sky
+
+.has-background-blue
+  background-color: $blue
+
 @import "~bulma"
 
 // responsiveness
@@ -144,7 +159,7 @@ $menu-label-color: $white-ter
   .is-hidden-desktop
     display: block;
 
-  .about-image
+.center-image
   display: block;
   margin-top: 100px
   margin: auto;

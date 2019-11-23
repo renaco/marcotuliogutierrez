@@ -2,24 +2,24 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../img/logo.svg'
+import Seven from '../img/7.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+// import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
+      <footer className="footer has-background-blue has-text-white-ter">
         <div className="content has-text-centered">
           <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
+            src={Seven}
+            alt="Marco Tulio Gutierrez"
           />
         </div>
         <div className="content has-text-centered has-background-blue has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+          <div className="container has-text-white-ter">
             <div className="columns">
               <div className="column is-6">
                 <section className="menu">
@@ -27,6 +27,11 @@ const Footer = class extends React.Component {
                     <li>
                       <Link to="/" className="navbar-item">
                         Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/junta-directiva">
+                        Junta Directiva
                       </Link>
                     </li>
                     <li>

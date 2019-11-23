@@ -17,26 +17,19 @@ description: >-
   Aspiro a ser el Decano de Descentralización y porque #TUMECONOCES, firmo este compromiso de cumplir con mi Plan de Gobierno 2020-2021.
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
+    - text: >
         1. Centros de servicios integrales – SCI en Lima Norte, Sur, Este y centro
-    - image: /img/coffee-gear.png
-      text: >
+    - text: >
         2. Mi bono académico
-    - image: /img/tutorials.png
-      text: >
+    - text: >
         3. App CAL
-    - image: /img/meeting-space.png
-      text: >
+    - text: >
         4. Conversión del policlínico en el centro de servicios especiales de imagenología
-    - image: /img/tutorials.png
-      text: >
+    - text: >
         5. Cuponera CAL
-    - image: /img/tutorials.png
-      text: >
+    - text: >
         6. Centro de asesoramiento Mario Alzamora Valdez
-    - image: /img/tutorials.png
-      text: >
+    - text: >
         7. Recuperación del rol del colegio como conciencia de la sociedad
   heading: What we offer
   description: >
