@@ -6,7 +6,7 @@ import Seven from '../img/7.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-// import vimeo from '../img/social/vimeo.svg'
+import youtube from '../img/social/youtube.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -37,6 +37,11 @@ const Footer = class extends React.Component {
                     <li>
                       <Link className="navbar-item" to="/hoja-de-vida">
                         Hoja de vida
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/videos">
+                        Videos
                       </Link>
                     </li>
                     {/* <li>
@@ -101,13 +106,13 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                {/* <a title="vimeo" href="https://vimeo.com">
+                <a title="youtube" href="https://www.youtube.com/channel/UCYGzRO0jMM4K5SrizVym-sg/">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
+                    src={youtube}
+                    alt="Youtube"
                     style={{ width: '1em', height: '1em' }}
                   />
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

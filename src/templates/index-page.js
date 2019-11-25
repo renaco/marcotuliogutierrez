@@ -7,7 +7,7 @@ import Features from '../components/Features'
 // import BlogRoll from '../components/BlogRoll'
 import ImageDesktop from '../../static/img/home.png'
 import ImageResponsive from './../img/640x360.png'
-import Seven from '../img/7.svg'
+// import Seven from '../img/7.svg'
 
 export const IndexPageTemplate = ({
   image,

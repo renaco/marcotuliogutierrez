@@ -23,6 +23,7 @@ const config = {
     'page-data/*',
     'propuestas/*',
     'hoja-de-vida/*',
+    'videos/*',
     'images/*',
     'static/*',
     '404/'
