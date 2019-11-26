@@ -24,6 +24,7 @@ const config = {
     'propuestas/*',
     'hoja-de-vida/*',
     'videos/*',
+    'junta-directiva/*',
     'images/*',
     'static/*',
     '404/'
