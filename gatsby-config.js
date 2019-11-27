@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Marco Tulio Gutierrez',
-    description:
-      'Si a la descentralización del CAL #TÚMECONOCES',
+    description: 'Si a la descentralización del CAL #TÚMECONOCES',
+    absoluteUrl: 'www.marcotuliogutierrez.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

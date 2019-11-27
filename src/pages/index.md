@@ -19,29 +19,30 @@ intro:
   blurbs:
     - title: >
         1. Centros de servicios integrales – SCI
-    - text: >
-        Cuatro locales ubicadas en Lima Norte, Sur, Este y Centro que ofrecerán: Salón de esparcimiento del adulto mayor, para eventos sociales y guardería, cancha de grass sintético, velatorio, anfiteatro para 100 personas con aulas de capacitación, cabina de internet, oficina de atención de reclamos y consultorios de especialidades médicas.
+      text: >
+        Cuatro locales ubicadas en Lima Norte, Sur, Este y Centro que ofrecerán Salón de esparcimiento del adulto mayor, para eventos sociales y guardería, cancha de grass sintético, velatorio, anfiteatro para 100 personas con aulas de capacitación, cabina de internet, oficina de atención de reclamos y consultorios de especialidades médicas.
     - title: >
         2. Mi Bono Académico
-    - text: >
+      text: >
         Los agremiados recibirán bonos por sus pagos de colegiatura, redimibles por igual 
     - title: >
         3. App CAL
-    - text: >
+      text: >
         Aplicativo para la obtención  de Papeletas y Constancias de Habilitación Electrónica y pagos desde el celular.
     - title: >
         4. Conversión del policlínico en el centro de servicios especiales de imagenología
-    - text: >
+      text: >
         Se ofrecerá servicios en Resonancia Magnética, Tomografía Axial Computarizada y Mamografía Tridimensional.
     - title: >
         5. Cuponera CAL
-    - text: >
-        Realizaremos múltiples convenios para beneficios de nuestros agremiados en: Descuentos en atención Médica y Cirugía en clínicas privadas, así como descuentos en tiendas por departamentos y centros comerciales. 
+      text: >
+        Realizaremos múltiples convenios para beneficios de nuestros agremiados en Descuentos en atención Médica y Cirugía en clínicas privadas, así como descuentos en tiendas por departamentos y centros comerciales. 
     - title: >
         6. Centro de asesoramiento Mario Alzamora Valdez
-    - text: >
+      text: >
         Para Maestrías y Doctorados con convenios para descuentos en las universidades licenciadas por SUNEDU y apoyo gratuito para la obtención de los grados; y becas en alianzas con universidades internacionales.
-    - title: >
+
+    - title:
         7. Recuperación del rol del colegio como conciencia de la sociedad.
   
   heading: What we offer

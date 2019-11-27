@@ -16,7 +16,6 @@ Título Profesional de Abogado por la Universidad Nacional Mayor de San Marcos. 
  
 Grado Académico de Bachiller en Derecho por la Universidad Nacional Mayor de San Marcos. 17 de setiembre de 1985. Registrado en SUNEDU.
 
-
 Estudios concluidos de Maestría en Derecho Administrativo y Gestión Pública en la Universidad Privada San Juan Bautista. Julio de 2019.
  
 Conciliador Extrajudicial. Registro N° 004618 del Ministerio de Justicia. 31 de octubre de 2000. Centro de Formación y Capacitación de Conciliadores del Ilustre Colegio de Abogados de Lima.

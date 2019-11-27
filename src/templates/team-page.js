@@ -3,13 +3,14 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import Testimonials from '../components/Testimonials'
+// import Pricing from '../components/Pricing'
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import ImageResponsive from '../../static/img/junta-directiva-mobile.jpg'
 // import Descentralizacion from '../../static/img/junta-directiva/descentralizacion.jpg'
-import Seven from '../img/7.svg'
+// import Seven from '../img/7.svg'
 // import teamdescentralizacion from '../img/descentralizacion.svg'
+import profile from '../../static/img/marco-tulio-gutierrez.jpg'
 
 export const ProductPageTemplate = ({
   image,
@@ -22,46 +23,44 @@ export const ProductPageTemplate = ({
   fullImage,
   pricing,
 }) => (
-  <div className="content">
-    <div
-      className="full-width-image-container margin-top-0 is-hidden-mobile"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-      }}
-    >
-      <h2
-        className="has-text-weight-bold is-size-1"
+    <div className="content">
+      {/* <h3 className="has-text-weight-semibold is-size-2 text-center">{heading}</h3> */}
+      <div
+        className="full-width-image-container margin-top-0 is-hidden-mobile"
         style={{
-          boxShadow: '0.5rem 0 0 #034EA2, -0.5rem 0 0 #00C0F3',
-          backgroundColor: '#034EA2',
-          color: 'white',
-          padding: '1rem',
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
         }}
       >
-        {title}
-      </h2>
-    </div>
-    <div className="is-hidden-desktop">
-      <img src={ImageResponsive} alt={title} />
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <h3 className="has-text-weight-semibold is-size-2 text-center">{heading}</h3>
-          <img src={Seven} alt="" className="center-image" />
-          <div className="columns">
-            <div className="column is-7 is-offset-1">
-              {/* <p>{description}</p> */}
-              {/* <Features gridItems={intro.blurbs} /> */}
-              {/* <img src={teamdescentralizacion} alt=""/> */}
-            </div>
-          </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1 team-members">
-              <Features gridItems={intro.blurbs} />
-              {/* <div className="columns">
+        <h2
+          className="has-text-weight-bold is-size-1"
+          style={{
+            boxShadow: '0.5rem 0 0 #034EA2, -0.5rem 0 0 #00C0F3',
+            backgroundColor: '#034EA2',
+            color: 'white',
+            padding: '1rem',
+          }}
+        >
+          {title}
+        </h2>
+      </div>
+      <div className="is-hidden-desktop">
+        <img src={ImageResponsive} alt={title} />
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <h3 className="has-text-weight-semibold is-size-2 text-center">{heading}</h3>
+            {/* <section className="section">
+              <img src={profile} alt="" className="center-image" />
+              <h3>{intro.blurbs[0].title}</h3>
+              <p>{intro.blurbs[0].text}</p>
+            </section> */}
+            <div className="columns">
+              <div className="column is-10 is-offset-1 team-members">
+                <Features gridItems={intro.blurbs} />
+                {/* <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
@@ -69,7 +68,7 @@ export const ProductPageTemplate = ({
                   <p>{main.description}</p>
                 </div>
               </div> */}
-              {/* <div className="tile is-ancestor">
+                {/* <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile is-parent">
                     <article className="tile is-child">
@@ -90,8 +89,8 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div> */}
-              {/* <Testimonials testimonials={testimonials} /> */}
-              {/* <div
+                {/* <Testimonials testimonials={testimonials} /> */}
+                {/* <div
                 className="full-width-image-container"
                 style={{
                   backgroundImage: `url(${
@@ -101,18 +100,18 @@ export const ProductPageTemplate = ({
                   })`,
                 }}
               /> */}
-              {/* <h2 className="has-text-weight-semibold is-size-2">
+                {/* <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2> */}
-              {/* <p className="is-size-5">{pricing.description}</p> */}
-              {/* <Pricing data={pricing.plans} /> */}
+                {/* <p className="is-size-5">{pricing.description}</p> */}
+                {/* <Pricing data={pricing.plans} /> */}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-)
+      </section>
+    </div>
+  )
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -191,6 +190,7 @@ export const productPageQuery = graphql`
                 }
               }
             }
+            title
             text
           }
           heading

@@ -1,6 +1,6 @@
 ---
 templateKey: 'product-page'
-path: /products
+path: /propuestas
 title: Propuestas
 image: /img/background-home.jpg
 heading: Compromisos

@@ -86,7 +86,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="javascript:;"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

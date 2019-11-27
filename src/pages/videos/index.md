@@ -1,7 +1,7 @@
 ---
 templateKey: videos-page
 title: Videos del Dr. Marco Tulio Gutierrez
-image: /img/home.png
+image: /img/home.jpg
 heading: Si a la descentralización del CAL
 ---
 

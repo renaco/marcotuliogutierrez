@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 // import BlogRoll from '../components/BlogRoll'
-import ImageDesktop from '../../static/img/home.png'
+import ImageDesktop from '../../static/img/home.jpg'
 import ImageResponsive from './../img/640x360.png'
 // import Seven from '../img/7.svg'
 
@@ -18,9 +18,9 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0 is-hidden-mobile"
+    <div>
+      <div
+        className="full-width-image margin-top-0 is-hidden-mobile"
       // style={{
       //   backgroundImage: `url(${
       //     !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -28,9 +28,9 @@ export const IndexPageTemplate = ({
       //   backgroundPosition: `top center`,
       //   // backgroundAttachment: `fixed`,
       // }}
-    >
-      <img src={ImageDesktop} alt=""/>
-      {/* <div
+      >
+        <img src={ImageDesktop} alt="" />
+        {/* <div
         style={{
           display: 'flex',
           height: '150px',
@@ -68,17 +68,17 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div> */}
-    </div>
-    <div className="is-hidden-desktop">
-      <img src={ImageResponsive} alt={title} />
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                {/*
+      </div>
+      <div className="is-hidden-desktop">
+        <img src={ImageResponsive} alt={title} />
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="content">
+                  {/*
                  <div className="content">
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -88,24 +88,24 @@ export const IndexPageTemplate = ({
                   </div>
                 </div> 
                 */}
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <h4>MI COMPROMISO:</h4>
-                    <p>{description}</p>
+                  <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <h4>MI COMPROMISO:</h4>
+                      <p>{description}</p>
+                    </div>
                   </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                {/* <div className="columns">
+                  <Features gridItems={intro.blurbs} />
+                  {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/propuestas">
                       Propuestas
                     </Link>
                   </div>
                 </div> */}
-                {/* <div className="column is-12">
+                  {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -116,14 +116,14 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div> */}
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-)
+      </section>
+    </div>
+  )
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -186,6 +186,7 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            title
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
