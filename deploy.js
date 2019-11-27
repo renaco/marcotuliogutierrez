@@ -29,7 +29,7 @@ const config = {
     'static/*',
     '404/'
   ],
-  deleteRemote: true,
+  deleteRemote: false,
   forcePasv: true
 }
 

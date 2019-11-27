@@ -44,11 +44,11 @@ const Footer = class extends React.Component {
                         Videos
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link className="navbar-item" to="/propuestas">
-                        Propuestas
+                    <li>
+                      <Link className="navbar-item" to="/app-cal">
+                        App CAL
                       </Link>
-                    </li> */}
+                    </li>
                     {/* <li>
                       <Link className="navbar-item" to="/contact/examples">
                         Form Examples
