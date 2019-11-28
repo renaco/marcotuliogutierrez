@@ -28,7 +28,7 @@ intro:
     - title: >
         3. App CAL
       text: >
-        Aplicativo para la obtención  de Papeletas y Constancias de Habilitación Electrónica y pagos desde el celular.
+        Aplicativo para la obtención de Papeletas de Habilitación Profesional, Constancias de Habilitación Electrónica, pagos de cuotas y salones virtuales desde el celular.
     - title: >
         4. Conversión del policlínico en el centro de servicios especiales de imagenología
       text: >

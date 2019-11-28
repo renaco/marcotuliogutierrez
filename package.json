@@ -43,7 +43,7 @@
   "main": "n/a",
   "scripts": {
     "clean": "gatsby clean",
-    "ftp": "node deploy",
+    "deploy": "node deploy",
     "start": "npm run develop",
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
