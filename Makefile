@@ -19,7 +19,7 @@ clean:
 install:
 	yarn install
 
-develop:
+dev:
 	yarn run develop
 
 sync:

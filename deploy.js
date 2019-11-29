@@ -30,6 +30,11 @@ const config = {
     '404/'
   ],
   deleteRemote: false,
+  exclude: [
+    'app-cal/',
+    'app-cal/*',
+    'app-cal/**/*'
+  ],
   forcePasv: true
 }
 
