@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-// import logo from '../img/logo.svg'
 import Seven from '../img/7.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
@@ -35,8 +34,8 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/hoja-de-vida">
-                        Hoja de vida
+                      <Link className="navbar-item" to="/su-vida">
+                        Su vida
                       </Link>
                     </li>
                     <li>
@@ -49,40 +48,9 @@ const Footer = class extends React.Component {
                         App CAL
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li> */}
-                    {/* <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li> */}
                   </ul>
                 </section>
               </div>
-              {/* <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/escribeme">
-                        Escribeme
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div> */}
               <div className="column is-6 social">
                 <a title="facebook" href="https://www.facebook.com/Marco-Tulio-Gutierrez-110818827032764/">
                   <img

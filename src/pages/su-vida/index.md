@@ -1,6 +1,6 @@
 ---
 templateKey: 'about-page'
-path: /hoja-de-vida
+path: /su-vida
 title: Acerca del Dr. Marco Tulio Gutierrez
 ---
 
